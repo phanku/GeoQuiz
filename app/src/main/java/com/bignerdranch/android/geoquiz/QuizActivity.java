@@ -8,8 +8,16 @@ import android.widget.Toast;
 
 public class QuizActivity extends AppCompatActivity {
 
+    /**
+     * Reference to the true button widget in the layout.
+     */
     private Button mTrueButton;
+
+    /**
+     * Reference to the false button widget in the layout.
+     */
     private Button mFalseButton;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
